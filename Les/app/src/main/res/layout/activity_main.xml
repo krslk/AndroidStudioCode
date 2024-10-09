@@ -5,7 +5,6 @@
     android:layout_height="800dp"
     android:gravity="center|top"
     android:orientation="vertical">
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="@dimen/tV_top_layout_height"
