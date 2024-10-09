@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="background_blue">#FF4095E5</color>
+    <color name="progressBar_noFinish_background">#FF92C9FD</color>
+    <color name="progressBarLine_noFinish_background">#FF92C9FD</color>
+    <color name="et_hintTextColor">#FF888888</color>
+    <color name="hintColor">#FFBBBBBB</color>
+</resources>

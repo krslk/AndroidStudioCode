@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">求职登记表</string>
+    <string name="title_activity_basic_information">BasicInformation</string>
+    <string name="basicInformation_tv_topBar_text">求职登记</string>
+    <string name="group_progressBar_basicInformation_text">基本信息</string>
+    <string name="group_progressBar_workExperience_text">工作经历</string>
+    <string name="group_progressBar_contactMeans_text">联系方式</string>
+    <string name="basicInformation_tv_choosePosition_text">意向岗位</string>
+    <string name="basicInformation_tv_name_text">姓名</string>
+    <string name="basicInformation_tv_sex_text">性别</string>
+    <string name="basicInformation_tv_birthday_text">出生日期</string>
+    <string name="basicInformation_tv_idCard_text">身份证号</string>
+    <string name="basicInformation_tv_graduateSchool_text">毕业学校</string>
+    <string name="basicInformation_tv_graduateDate_text">毕业年份</string>
+    <string name="basicInformation_tv_profession_text">专业</string>
+    <string name="progressBarIconTest_one">1</string>
+    <string name="progressBarIconTest_two">2</string>
+    <string name="progressBarIconTest_three">3</string>
+    <string name="basicInformation_btn_nextstep_text">下一步</string>
+    <string name="basicInformation_btn_finish_text">完成</string>
+    <string name="contentMeans_btn_preStep_text">上一步</string>
+    <string name="basicInformation_et_name_text">请输入姓名</string>
+    <string name="sex_man">男</string>
+    <string name="sex_women">女</string>
+    <string name="basicInformation_et_birthday_text">请输入出生日期</string>
+    <string name="basicInformation_et_idCard_text">请输入证件号</string>
+    <string name="basicInformation_et_graduateSchool_text"> 请输入毕业学校</string>
+    <string name="basicInformation_et_graduateDate_text">请输入毕业年份</string>
+    <string name="workExp_tv_mainExp_text">主要学习及工作经历</string>
+    <string name="workExp_tv_degree_text">学历</string>
+    <string name="workExp_tv_mainTask_text">主要职责</string>
+    <string name="workExp_et_mainTask_hint">请在此输入内容人</string>
+    <string name="workExp_et_demand_hint">任职的资格及要求</string>
+    <string name="workExp_et_reason_hint">选择本公司的原因</string>
+    <string name="workExp_et_interest_hint">兴趣爱好及特长</string>
+    <string name="workExp_et_recommended_hint">是否经人推荐</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="workExp_et_recommendName_hint">请输入推荐人</string>
+    <string name="workExp_tv_recommendName_text">推荐人姓名</string>
+    <string name="workExp_tv_know_text">对应聘岗位的认识与理解</string>
+    <string name="workExp_tv_other_text">本人需要说明的其它情况</string>
+    <string name="ConMeans_tv_phone_text">联系电话</string>
+    <string name="ConMeans_et_phone_hint">请输入联系电话</string>
+    <string name="ConMeans_tv_email_text">电子邮箱</string>
+    <string name="ConMeans_et_email_hint">请输入电子邮箱地址</string>
+    <string name="ConMeans_tv_address_text">家庭住址</string>
+    <string name="ConMeans_tv_province_text">省/直辖市/自治区</string>
+    <string name="ConMeans_tv_city_text">地级市/直辖区</string>
+    <string name="ConMeans_tv_county_text">县/县级市</string>
+    <string name="ConMeans_tv_detailAddress_text">详细地址</string>
+    <string name="ConMeans_et_detailAddress_hint">请输入详细地址</string>
+
+    <string-array name="bI_choosePosition">
+        <item>清洁工</item>
+        <item>项目经理</item>
+        <item>技术经理</item>
+        <item>产品设计经理</item>
+        <item>运营经理</item>
+        <item>测试经理</item>
+        <item>客服经理</item>
+        <item>开发组组长</item>
+        <item>老板</item>
+    </string-array>
+</resources>

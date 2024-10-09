@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="topBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/basicInformation_group_topBar_height</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/group_topBarText_textSize</item>
+        <item name="android:text">@string/basicInformation_tv_topBar_text</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="basicInfo_formKey">
+        <item name="android:layout_width">@dimen/basicInformation_tv_choosePosition_width</item>
+        <item name="android:layout_height">@dimen/basicInformation_tv_choosePosition_height</item>
+        <item name="android:layout_marginTop">@dimen/basicInformation_tv_name_marginTop</item>
+        <item name="android:layout_alignLeft">@id/basicInformation_tv_choosePosition</item>
+        <item name="android:gravity">center|left</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/group_progressBarText_textSize</item>
+    </style>
+
+    <style name="basicInfo_formValue">
+        <item name="android:layout_width">@dimen/basicInformation_dd_choosePosition_width</item>
+        <item name="android:layout_height">@dimen/basicInformation_dd_choosePosition_height</item>
+        <item name="android:layout_marginTop">@dimen/basicInformation_tv_name_marginTop</item>
+        <item name="android:layout_alignLeft">@id/bI_dd_choosePosition</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/group_progressBarText_textSize</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:maxLength">20</item>
+    </style>
+
+    <style name="workExp_formKey">
+        <item name="android:layout_width">@dimen/workExp_tv_mainTask_width</item>
+        <item name="android:layout_height">@dimen/workExp_tv_mainExp_height</item>
+        <item name="android:gravity">left|center</item>
+        <item name="android:textSize">@dimen/workExp_tv_know_textSize</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_marginStart">@dimen/workExp_tv_mainTask_marginStart</item>
+    </style>
+
+    <style name="workExp_formValue">
+        <item name="android:layout_width">@dimen/workExp_et_mainTask_width</item>
+        <item name="android:layout_height">@dimen/workExp_tv_mainTask_height</item>
+        <item name="android:gravity">left|center</item>
+        <item name="android:textSize">@dimen/workExp_tv_know_textSize</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:inputType">text</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:maxLength">30</item>
+    </style>
+
+    <style name="conMeans_formKey">
+        <item name="android:layout_width">@dimen/conMeans_tv_phone_width</item>
+        <item name="android:layout_height">@dimen/conMeans_tv_phone_height</item>
+        <item name="android:gravity">left|center</item>
+        <item name="android:textSize">@dimen/conMeans_tv_phone_textSize</item>
+        <item name="android:layout_marginTop">@dimen/conMeans_tv_phone_marginTop</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_marginStart">@dimen/conMeans_tv_phone_marginStart</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="conMeans_formValue">
+        <item name="android:layout_width">@dimen/conMeans_et_phone_width</item>
+        <item name="android:layout_height">@dimen/conMeans_et_phone_height</item>
+        <item name="android:gravity">left|center</item>
+        <item name="android:textSize">@dimen/conMeans_tv_phone_textSize</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_marginStart">@dimen/conMeans_et_phone_marginStart</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:maxLength">30</item>
+    </style>
+
+    <style name="conMeans_detailAddress_formKey">
+        <item name="android:layout_width">@dimen/conMeans_tv_province_width</item>
+        <item name="android:layout_height">@dimen/conMeans_tv_province_height</item>
+        <item name="android:gravity">left|center</item>
+        <item name="android:textSize">@dimen/conMeans_tv_phone_textSize</item>
+        <item name="android:layout_marginTop">@dimen/conMeans_spi_province_marginTop</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_marginStart">@dimen/conMeans_tv_province_marginStart</item>
+    </style>
+
+    <style name="conMeans_detailAddress_formValue">
+        <item name="android:layout_width">@dimen/conMeans_spi_province_width</item>
+        <item name="android:layout_height">@dimen/conMeans_spi_phone_height</item>
+        <item name="android:gravity">left|center</item>
+        <item name="android:textSize">@dimen/conMeans_tv_phone_textSize</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_marginStart">@dimen/conMeans_spi_province_marginStart</item>
+    </style>
+
+
+</resources>

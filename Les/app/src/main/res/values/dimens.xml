@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tV_top_layout_height">290dp</dimen>
+    <dimen name="btn_saveAndClear_layout_width">150dp</dimen>
+    <dimen name="btn_saveAndClear_layout_height">70dp</dimen>
+    <dimen name="btn_saveAndClear_marginTop">20dp</dimen>
+    <dimen name="btn_saveAndClear_marginRight">5dp</dimen>
+    <dimen name="btn_saveAndClear_marginBottom">10dp</dimen>
+    <dimen name="btn_saveAndClear_marginLeft">5dp</dimen>
+    <dimen name="btn_layout_width">70dp</dimen>
+    <dimen name="btn_layout_height">70dp</dimen>
+    <dimen name="btn_marginTop">10dp</dimen>
+    <dimen name="btn_marginRight">5dp</dimen>
+    <dimen name="btn_marginBottom">10dp</dimen>
+    <dimen name="btn_marginLeft">5dp</dimen>
+    <dimen name="btn_history_layout_width">35dp</dimen>
+    <dimen name="btn_history_layout_height">35dp</dimen>
+    <dimen name="btn_history_layout_marginLeft">20dp</dimen>
+    <dimen name="btn_history_layout_marginTop">10dp</dimen>
+    <dimen name="btn_history_layout_bottom">20dp</dimen>
+    <dimen name="scrollView_tv_inputView_layout_height">130dp</dimen>
+    <dimen name="tv_outputView_layout_height">90dp</dimen>
+    <dimen name="tv_inputView_layout_marginRight">10dp</dimen>
+    <dimen name="tv_inputView_textSize">55sp</dimen>
+    <dimen name="tv_outputView_layout_marginRight">10dp</dimen>
+    <dimen name="tv_outputView_textSize">70sp</dimen>
+</resources>

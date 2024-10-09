@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="login_logo_textColor">#FF4749BA</color>
+    <color name="login_et_username_textColorHint">#FFC1C2C5</color>
+    <color name="login_tv_noUsername_textColor">#FF9A9A9A</color>
+</resources>

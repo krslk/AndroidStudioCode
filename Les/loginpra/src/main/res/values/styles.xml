@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="layout_login_topImage">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@drawable/bk</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="contentDescription"></item>
+        <item name="android:layout_alignParentTop">true</item>
+    </style>
+
+    <style name="layout_resetPassword_topImage">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@drawable/image_background</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="contentDescription"></item>
+        <item name="android:layout_alignParentTop">true</item>
+    </style>
+
+    <style name="layout_register_topImage">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@drawable/background_register</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="contentDescription"></item>
+        <item name="android:layout_alignParentTop">true</item>
+    </style>
+</resources>
