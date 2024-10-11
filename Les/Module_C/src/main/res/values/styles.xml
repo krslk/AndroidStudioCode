@@ -28,6 +28,7 @@
         <item name="android:layout_marginTop">@dimen/basicInformation_tv_name_marginTop</item>
         <item name="android:layout_alignLeft">@id/bI_dd_choosePosition</item>
         <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">center|right</item>
         <item name="android:textSize">@dimen/group_progressBarText_textSize</item>
         <item name="android:maxLines">1</item>
         <item name="android:maxLength">20</item>

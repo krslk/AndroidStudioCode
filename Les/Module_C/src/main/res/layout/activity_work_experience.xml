@@ -2,8 +2,8 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/layout_basicInformation"
-    android:layout_width="360dp"
-    android:layout_height="772dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:background="@color/background_blue"
     android:orientation="vertical"
     tools:context=".BasicInformation">
@@ -185,6 +185,7 @@
                 android:layout_height="@dimen/workExp_tv_mainExp_height"
                 android:layout_below="@+id/workExp_tv_degree"
                 android:layout_alignStart="@id/workExp_tv_degree"
+
                 android:layout_marginTop="@dimen/workExp_tv_mainExp_marginTop"
                 android:gravity="center|left"
                 android:text="@string/workExp_tv_mainExp_text"
@@ -198,6 +199,7 @@
                 android:layout_height="@dimen/workExp_et_mainExp_height"
                 android:layout_below="@+id/workExp_tv_mainExp"
                 android:layout_alignStart="@id/workExp_tv_mainExp"
+                android:layout_alignEnd="@+id/workExp_dd_degree"
                 android:layout_marginTop="@dimen/workExp_et_mainExp_marginTop"
                 android:background="@drawable/shape_edittext"
                 android:gravity="top|left"
@@ -209,6 +211,7 @@
                 android:layout_height="@dimen/workExp_tv_mainExp_height"
                 android:layout_below="@+id/workExp_et_mainExp"
                 android:layout_alignStart="@id/workExp_tv_degree"
+                android:layout_alignEnd="@+id/workExp_dd_degree"
                 android:layout_marginTop="@dimen/workExp_tv_mainExp_marginTop"
                 android:gravity="center|left"
                 android:text="@string/workExp_tv_know_text"
@@ -227,8 +230,10 @@
                 android:id="@+id/workExp_et_mainTask"
                 style="@style/workExp_formValue"
                 android:layout_alignTop="@+id/workExp_tv_mainTask"
+                android:layout_alignEnd="@+id/workExp_dd_degree"
                 android:layout_toRightOf="@+id/workExp_tv_mainTask"
                 android:background="@null"
+                android:gravity="center|right"
                 android:hint="@string/workExp_et_mainTask_hint" />
 
             <TextView
@@ -242,8 +247,10 @@
                 android:id="@+id/workExp_et_demand"
                 style="@style/workExp_formValue"
                 android:layout_alignTop="@+id/workExp_tv_demand"
+                android:layout_alignEnd="@id/workExp_dd_degree"
                 android:layout_toRightOf="@+id/workExp_tv_mainTask"
                 android:background="@null"
+                android:gravity="center|right"
                 android:hint="@string/workExp_et_mainTask_hint" />
 
             <TextView
@@ -257,8 +264,10 @@
                 android:id="@+id/workExp_et_reason"
                 style="@style/workExp_formValue"
                 android:layout_alignTop="@+id/workExp_tv_reason"
+                android:layout_alignEnd="@id/workExp_dd_degree"
                 android:layout_toRightOf="@+id/workExp_tv_mainTask"
                 android:background="@null"
+                android:gravity="center|right"
                 android:hint="@string/workExp_et_mainTask_hint" />
 
             <TextView
@@ -272,8 +281,10 @@
                 android:id="@+id/workExp_et_interest"
                 style="@style/workExp_formValue"
                 android:layout_alignTop="@+id/workExp_tv_interest"
+                android:layout_alignEnd="@id/workExp_dd_degree"
                 android:layout_toRightOf="@+id/workExp_tv_mainTask"
                 android:background="@null"
+                android:gravity="center|right"
                 android:hint="@string/workExp_et_mainTask_hint" />
 
             <TextView
@@ -287,7 +298,9 @@
                 android:id="@+id/workExp_et_recommended"
                 style="@style/workExp_formValue"
                 android:layout_below="@+id/workExp_tv_interest"
+                android:layout_alignEnd="@id/workExp_dd_degree"
                 android:layout_toRightOf="@+id/workExp_tv_recommended"
+                android:gravity="center|right"
                 android:orientation="horizontal">
 
                 <RadioButton
@@ -317,8 +330,10 @@
                 android:id="@+id/workExp_et_recommendName"
                 style="@style/workExp_formValue"
                 android:layout_alignTop="@+id/workExp_tv_recommendName"
+                android:layout_alignEnd="@id/workExp_dd_degree"
                 android:layout_toRightOf="@+id/workExp_tv_mainTask"
                 android:background="@null"
+                android:gravity="center|right"
                 android:hint="@string/workExp_et_recommendName_hint" />
 
             <TextView
@@ -327,6 +342,7 @@
                 android:layout_height="@dimen/workExp_tv_mainExp_height"
                 android:layout_below="@+id/workExp_et_recommendName"
                 android:layout_alignStart="@id/workExp_tv_degree"
+                android:layout_alignEnd="@id/workExp_dd_degree"
                 android:layout_marginTop="@dimen/workExp_tv_mainExp_marginTop"
                 android:gravity="center|left"
                 android:text="@string/workExp_tv_other_text"
@@ -340,10 +356,11 @@
                 android:layout_height="@dimen/workExp_et_mainExp_height"
                 android:layout_below="@+id/workExp_tv_other"
                 android:layout_alignStart="@id/workExp_tv_knowJob"
+                android:layout_alignEnd="@id/workExp_dd_degree"
                 android:layout_marginTop="@dimen/workExp_et_other_marginTop"
                 android:layout_marginBottom="@dimen/workExp_et_other_marginBottom"
                 android:background="@drawable/shape_edittext"
-                android:gravity="top|left"
+                android:gravity="center|right"
                 android:textSize="@dimen/workExp_et_textSize" />
 
         </RelativeLayout>
@@ -366,10 +383,11 @@
         android:id="@+id/workExperience_btn_nextStep"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginLeft="@dimen/basicInformation_btn_nextStep_marginLeft"
-        android:layout_marginBottom="@dimen/btn_nextStep_marginBottom"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="23dp"
         android:background="@drawable/btn_nextstep"
         android:onClick="nextStepToCM"
         android:text="@string/basicInformation_btn_nextstep_text" />
