@@ -9,7 +9,7 @@
     <dimen name="group_progressBarIcon_marginTop">15dp</dimen>
     <dimen name="group_progressBarLine_marginLeft">10dp</dimen>
     <dimen name="group_progressBarLine_marginRight">10dp</dimen>
-    <dimen name="backGround_Card_height">625dp</dimen>
+    <dimen name="backGround_Card_height">700dp</dimen>
     <dimen name="backGround_Card_radius">15dp</dimen>
     <dimen name="group_topBarText_textSize">22sp</dimen>
     <dimen name="group_progressBarText_textSize">16sp</dimen>
@@ -32,7 +32,7 @@
     <dimen name="btn_topBack_width">35dp</dimen>
     <dimen name="btn_topBack_marginTop">4dp</dimen>
     <dimen name="btn_topBack_marginLeft">2dp</dimen>
-    <dimen name="btn_nextStep_marginLeft">30dp</dimen>
+    <dimen name="btn_nextStep_marginLeft">50dp</dimen>
     <dimen name="btn_preStep_width">154dp</dimen>
     <dimen name="btn_preStep_height">51dp</dimen>
     <dimen name="tv_formKeyText_marginLeft">8dp</dimen>
