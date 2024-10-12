@@ -2,8 +2,8 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/login_layout"
-    android:layout_width="360dp"
-    android:layout_height="800dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     tools:context=".MainActivity">
 
     <ImageView style="@style/layout_login_topImage" />
@@ -36,7 +36,7 @@
             android:orientation="horizontal">
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="@dimen/login_tv_username_width"
                 android:layout_height="@dimen/login_tv_username_height"
                 android:layout_marginEnd="@dimen/login_tv_username_marginEnd"
                 android:gravity="center"
@@ -78,10 +78,10 @@
             android:orientation="horizontal">
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="@dimen/login_tv_username_width"
                 android:layout_height="@dimen/login_tv_username_height"
                 android:layout_marginEnd="@dimen/login_tv_username_marginEnd"
-                android:gravity="center|left"
+                android:gravity="center"
                 android:text="@string/login_tv_password_text"
                 android:textColor="@color/black"
                 android:textSize="@dimen/login_tv_username_textSize" />

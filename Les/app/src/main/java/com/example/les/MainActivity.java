@@ -55,7 +55,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             inputTextView.setText("");
             outputTextView.setText("0");
         } else if (v.getId() == R.id.btn_back) {
-            inputTextView.setText(removeFromTail(inputTextView.toString()));
+            String str = inputTextView.getText().toString();
+            if (!str.isEmpty()) {
+                inputTextView.setText(str.substring(0, str.length() - 1));
+            }
         } else if (v.getId() == R.id.btn_mod || v.getId() == R.id.btn_sign) {
 
         } else if (v.getId() == R.id.btn_div || v.getId() == R.id.btn_mul || v.getId() == R.id.btn_sub || v.getId() == R.id.btn_add) {

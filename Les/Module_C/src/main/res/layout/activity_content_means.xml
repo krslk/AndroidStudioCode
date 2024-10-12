@@ -2,8 +2,8 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/layout_basicInformation"
-    android:layout_width="360dp"
-    android:layout_height="772dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:background="@color/background_blue"
     android:orientation="vertical"
     tools:context=".BasicInformation">
@@ -108,6 +108,7 @@
         android:background="@color/white" />
 
     <LinearLayout
+        android:id="@+id/icon_contentMeans"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/tv_basicInformation_title_text"
@@ -157,7 +158,8 @@
         android:id="@+id/conMeans_et_phone"
         style="@style/conMeans_formValue"
         android:layout_alignTop="@+id/conMeans_tv_phone"
-        android:layout_toRightOf="@+id/conMeans_tv_phone"
+        android:layout_alignEnd="@+id/icon_contentMeans"
+        android:layout_centerInParent="true"
         android:background="@null"
         android:hint="@string/ConMeans_et_phone_hint"
         android:inputType="number" />
@@ -172,7 +174,7 @@
         android:id="@+id/conMeans_et_email"
         style="@style/conMeans_formValue"
         android:layout_alignTop="@+id/conMeans_tv_email"
-        android:layout_toRightOf="@+id/conMeans_tv_email"
+        android:layout_alignEnd="@+id/conMeans_et_phone"
         android:background="@null"
         android:hint="@string/ConMeans_et_email_hint"
         android:inputType="textEmailAddress" />
@@ -260,9 +262,8 @@
         android:id="@+id/contentMeans_btn_finish"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
+        android:layout_alignEnd="@+id/icon_contentMeans"
         android:layout_alignParentBottom="true"
-        android:layout_marginLeft="@dimen/basicInformation_btn_nextStep_marginLeft"
         android:layout_marginBottom="@dimen/btn_nextStep_marginBottom"
         android:background="@drawable/btn_nextstep"
         android:onClick="nextStepFinish"

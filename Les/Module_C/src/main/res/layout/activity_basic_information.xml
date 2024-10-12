@@ -2,8 +2,8 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/layout_basicInformation"
-    android:layout_width="360dp"
-    android:layout_height="772dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:background="@color/background_blue"
     android:orientation="vertical"
     tools:context=".BasicInformation">
@@ -187,8 +187,8 @@
         style="@style/basicInfo_formValue"
         android:layout_below="@+id/bI_dd_choosePosition"
         android:autofillHints="name"
-        android:hint="@string/basicInformation_et_name_text"
         android:background="@null"
+        android:hint="@string/basicInformation_et_name_text"
         android:textColorHint="@color/hintColor" />
 
     <TextView
@@ -230,9 +230,9 @@
         style="@style/basicInfo_formValue"
         android:layout_below="@+id/basicInfo_tv_sex"
         android:autofillHints="name"
+        android:background="@null"
         android:hint="@string/basicInformation_et_birthday_text"
         android:inputType="date"
-        android:background="@null"
         android:textColor="@color/black"
         android:textColorHint="@color/hintColor" />
 
@@ -247,8 +247,8 @@
         style="@style/basicInfo_formValue"
         android:layout_below="@+id/basicInfo_tv_birthday"
         android:autofillHints="name"
-        android:hint="@string/basicInformation_et_idCard_text"
         android:background="@null"
+        android:hint="@string/basicInformation_et_idCard_text"
         android:inputType="text"
         android:textColorHint="@color/hintColor" />
 
@@ -263,8 +263,8 @@
         style="@style/basicInfo_formValue"
         android:layout_below="@+id/basicInfo_tv_idCard"
         android:autofillHints="name"
-        android:hint="@string/basicInformation_et_graduateSchool_text"
         android:background="@null"
+        android:hint="@string/basicInformation_et_graduateSchool_text"
         android:inputType="text"
         android:textColor="@color/black"
         android:textColorHint="@color/hintColor" />
@@ -280,8 +280,8 @@
         style="@style/basicInfo_formValue"
         android:layout_below="@+id/basicInfo_tv_graduateSchool"
         android:autofillHints="name"
-        android:hint="@string/basicInformation_et_graduateDate_text"
         android:background="@null"
+        android:hint="@string/basicInformation_et_graduateDate_text"
         android:inputType="number"
         android:textColorHint="@color/hintColor" />
 
@@ -289,8 +289,8 @@
         android:id="@+id/basicInformation_btn_nextStep"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
         android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/basicInfo_et_name"
         android:layout_marginLeft="@dimen/basicInformation_btn_nextStep_marginLeft"
         android:layout_marginBottom="@dimen/btn_nextStep_marginBottom"
         android:background="@drawable/btn_nextstep"
