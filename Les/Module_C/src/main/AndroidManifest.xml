@@ -16,9 +16,6 @@
             android:name=".WorkExperience"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
-            android:exported="false" />
-        <activity
             android:name=".BasicInformation"
             android:exported="true">
             <intent-filter>

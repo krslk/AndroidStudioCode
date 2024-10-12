@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="tV_top_layout_height">290dp</dimen>
+    <dimen name="tV_top_layout_height">310dp</dimen>
     <dimen name="btn_saveAndClear_layout_width">150dp</dimen>
     <dimen name="btn_saveAndClear_layout_height">70dp</dimen>
     <dimen name="btn_saveAndClear_marginTop">20dp</dimen>
