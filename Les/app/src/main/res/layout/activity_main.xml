@@ -43,7 +43,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="@dimen/tv_outputView_layout_height"
                 android:layout_gravity="center|end"
-                android:gravity="top"
+                android:gravity="bottom"
+                android:maxLength="10"
                 android:textColor="@color/white"
                 android:textSize="@dimen/tv_outputView_textSize" />
         </HorizontalScrollView>

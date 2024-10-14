@@ -2,7 +2,11 @@ package com.example.les;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.res.ColorStateList;
+import android.graphics.Color;
 import android.os.Bundle;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
@@ -10,12 +14,15 @@ import android.widget.Button;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 
+import com.example.les.ex.DividingByZeroException;
+import com.example.les.ex.OperandFormatException;
+import com.example.les.utils.ExpressionCalculate;
+
 import java.nio.Buffer;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private TextView inputTextView;
     private TextView outputTextView;
-    private String expression;
     private String result;
 
     @Override
@@ -44,6 +51,36 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.btn_seven).setOnClickListener(this);
         findViewById(R.id.btn_eight).setOnClickListener(this);
         findViewById(R.id.btn_nine).setOnClickListener(this);
+        findViewById(R.id.btn_mod).setEnabled(false);
+        findViewById(R.id.btn_sign).setEnabled(false);
+        inputTextView.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+
+            }
+
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+            }
+
+            @Override
+            public void afterTextChanged(Editable s) {
+                try {
+                    ExpressionCalculate expressionCalculate = new ExpressionCalculate(inputTextView.getText().toString());
+                    outputTextView.setTextColor(Color.WHITE);
+                    result = expressionCalculate.getResult();
+                    outputTextView.setTextSize(55);
+                    outputTextView.setText(result);
+                } catch (OperandFormatException e) {
+                    inputTextView.setText(removeTail(inputTextView.getText().toString()));
+                } catch (DividingByZeroException e) {
+                    result = "错误";
+                    outputTextView.setText(result);
+                    outputTextView.setTextSize(55);
+                    outputTextView.setTextColor(Color.RED);
+                }
+            }
+        });
     }
 
     @Override
@@ -53,22 +90,43 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             inputTextView.setText("");
             outputTextView.setText("0");
         } else if (v.getId() == R.id.btn_back) {
+            inputTextView.setText(removeTail(inputTextView.getText().toString()));
+        } else if (v.getId() == R.id.btn_zero) {
             String str = inputTextView.getText().toString();
-            if (!str.isEmpty()) {
-                inputTextView.setText(str.substring(0, str.length() - 1));
+            if (appendZeroCheck(str)) {
+                inputTextView.append(inputText);
             }
         } else if (v.getId() == R.id.btn_equal) {
+            outputTextView.setTextSize(75);
             outputTextView.setText(result);
+        } else if (v.getId() == R.id.btn_mod) {
+
         } else {
             inputTextView.append(inputText);
         }
     }
 
-    private String removeFromTail(String str) {
-        if (str != null && !str.equals("")) {
-            return str.substring(0, str.length() - 1);
+    protected boolean appendZeroCheck(String str) {
+        if (str.isEmpty() || isSign(str.charAt(str.length() - 1))) {
+            return true;
+        }
+        for (int i = str.length() - 1; i >= 0 && !isSign(str.charAt(i)); i--) {
+            if (str.charAt(i) == '.') {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    protected boolean isSign(char c) {
+        if (c == '+' || c == '-' || c == '×' || c == '÷') return true;
+        return false;
+    }
+
+    protected String removeTail(String s) {
+        if (!s.isEmpty()) {
+            return s.substring(0, s.length() - 1);
         }
         return "";
     }
-
 }

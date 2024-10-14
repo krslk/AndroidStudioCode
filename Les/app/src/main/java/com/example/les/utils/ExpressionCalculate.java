@@ -99,7 +99,7 @@ public class ExpressionCalculate {
     }
 
     protected boolean isSign(char c) {
-        if (c == '+' || c == '-' || c == '*' || c == '/') return true;
+        if (c == '+' || c == '-' || c == '×' || c == '÷') return true;
         return false;
     }
 
@@ -109,7 +109,7 @@ public class ExpressionCalculate {
                 return o1 + o2;
             case '-':
                 return o1 - o2;
-            case '*':
+            case '×':
                 return o1 * o2;
             default:
                 if (o2 == 0) {
@@ -120,9 +120,9 @@ public class ExpressionCalculate {
     }
 
     protected int comparePriority(char s1, char s2) {
-        if ((s1 == '*' || s1 == '/') && (s2 == '+' || s2 == '-')) {
+        if ((s1 == '×' || s1 == '÷') && (s2 == '+' || s2 == '-')) {
             return 1;
-        } else if ((s1 == '+' || s1 == '-') && (s2 == '*' || s2 == '/')) {
+        } else if ((s1 == '+' || s1 == '-') && (s2 == '×' || s2 == '÷')) {
             return -1;
         }
         return 0;
