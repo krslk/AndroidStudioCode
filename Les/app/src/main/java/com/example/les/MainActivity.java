@@ -15,9 +15,7 @@ import java.nio.Buffer;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private TextView inputTextView;
     private TextView outputTextView;
-    private StringBuffer firstOperand = new StringBuffer();
-    private StringBuffer lastOperand = new StringBuffer();
-    private String operator = "";
+    private String expression;
     private String result;
 
     @Override
@@ -59,22 +57,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             if (!str.isEmpty()) {
                 inputTextView.setText(str.substring(0, str.length() - 1));
             }
-        } else if (v.getId() == R.id.btn_mod || v.getId() == R.id.btn_sign) {
-
-        } else if (v.getId() == R.id.btn_div || v.getId() == R.id.btn_mul || v.getId() == R.id.btn_sub || v.getId() == R.id.btn_add) {
-
-        } else if (v.getId() == R.id.btn_point) {
-
         } else if (v.getId() == R.id.btn_equal) {
-        } else if (v.getId() == R.id.btn_zero) {
-
+            outputTextView.setText(result);
         } else {
             inputTextView.append(inputText);
-            if (operator == null) {
-                firstOperand.append(inputText);
-            } else {
-                lastOperand.append(inputText);
-            }
         }
     }
 
