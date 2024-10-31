@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="@dimen/background_card_width"
+        android:layout_height="@dimen/background_card_height"
+        android:layout_centerInParent="true"
+        android:background="@drawable/shape_card_background">
+
+        <TableRow android:layout_marginTop="15dp">
+
+            <TextView
+                android:layout_width="@dimen/tv_name_width"
+                android:layout_height="@dimen/tv_name_height"
+                android:gravity="center|left"
+                android:text="@string/tv_name"
+                android:textColor="@color/black"
+                android:textSize="@dimen/tv_name_textSize" />
+
+            <EditText
+                android:id="@+id/et_name"
+                android:layout_width="@dimen/et_name_width"
+                android:layout_height="@dimen/et_name_height"
+                android:background="@drawable/et_shape"
+                android:hint="@string/et_name_hint"
+                android:inputType="text"
+                android:maxLength="15"
+                android:maxLines="1"
+                android:textSize="@dimen/et_name_textSize" />
+        </TableRow>
+
+        <TableRow android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="@dimen/tv_name_width"
+                android:layout_height="@dimen/tv_name_height"
+                android:gravity="center|left"
+                android:text="@string/tv_age"
+                android:textColor="@color/black"
+                android:textSize="@dimen/tv_name_textSize" />
+
+            <EditText
+                android:id="@+id/et_age"
+                android:layout_width="@dimen/et_name_width"
+                android:layout_height="@dimen/et_name_height"
+                android:background="@drawable/et_shape"
+                android:hint="@string/et_age_hint"
+                android:inputType="text"
+                android:maxLength="15"
+                android:maxLines="1"
+                android:textSize="@dimen/et_name_textSize" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="300dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="5dp">
+
+            <TextView
+                android:layout_width="@dimen/tv_name_width"
+                android:layout_height="@dimen/tv_name_height"
+                android:gravity="center|left"
+                android:text="@string/tv_says"
+                android:textColor="@color/black"
+                android:textSize="@dimen/tv_name_textSize" />
+
+            <EditText
+                android:id="@+id/et_says"
+                android:layout_width="@dimen/et_name_width"
+                android:layout_height="90dp"
+                android:background="@drawable/et_shape"
+                android:gravity="left"
+                android:hint="@string/et_says_hint"
+                android:inputType="textMultiLine"
+                android:maxWidth="@dimen/et_name_maxWidth"
+                android:maxLines="5"
+                android:scrollbarAlwaysDrawHorizontalTrack="false"
+                android:scrollbarAlwaysDrawVerticalTrack="true" />
+        </TableRow>
+
+        <Button
+            android:id="@+id/btn_go"
+            android:layout_width="@dimen/btn_go_width"
+            android:layout_height="@dimen/btn_go_height"
+            android:layout_marginTop="@dimen/btn_go_marginTop"
+            android:background="@drawable/btn_go"
+            android:text="@string/btn_go_text"
+            android:textColor="@color/black"
+            android:textSize="@dimen/btn_go_textSize"
+            android:textStyle="bold" />
+
+    </TableLayout>
+
+</RelativeLayout>

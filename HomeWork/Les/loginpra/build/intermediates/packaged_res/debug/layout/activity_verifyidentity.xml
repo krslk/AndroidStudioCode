@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/verifyIdentity_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView style="@style/layout_resetPassword_topImage" />
+
+    <Button
+        android:layout_width="@dimen/btn_back_width"
+        android:layout_height="@dimen/btn_back_height"
+        android:layout_marginLeft="@dimen/btn_back_marginLeft"
+        android:layout_marginTop="@dimen/btn_back_marginTop"
+        android:adjustViewBounds="true"
+        android:background="@drawable/icon_back_"
+        android:onClick="back"
+        android:src="@drawable/icon_back_" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/login_background_height"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/rounded_rectangle"
+        android:foregroundGravity="bottom">
+
+        <TextView
+            android:id="@+id/login_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/login_logo_marginTop"
+            android:text="@string/login_logo_text"
+            android:textColor="@color/login_logo_textColor"
+            android:textSize="@dimen/login_logo_textSize" />
+
+        <LinearLayout
+            android:id="@+id/linear_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/login_logo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/verifyIdentity_group_phone_marginTop"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="@dimen/register_tv_phone_width"
+                android:layout_height="@dimen/login_tv_username_height"
+                android:layout_marginEnd="@dimen/register_tv_phone_marginEnd"
+                android:gravity="center"
+                android:text="@string/verifyIdentity_tv_phone_text"
+                android:textColor="@color/black"
+                android:textSize="@dimen/login_tv_username_textSize" />
+
+            <EditText
+                android:id="@+id/verifyIdentity_et_phone"
+                android:layout_width="@dimen/register_et_username_width"
+                android:layout_height="@dimen/login_et_username_height"
+                android:background="@null"
+                android:gravity="center|start"
+                android:hint="@string/register_et_phone_hint"
+                android:inputType="phone"
+                android:maxLength="13"
+                android:maxLines="1"
+                android:textColor="@color/black"
+                android:textColorHint="@color/login_et_username_textColorHint"
+                android:textSize="@dimen/login_tv_username_textSize" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/login_group_username_underline_height"
+            android:layout_below="@id/linear_phone"
+            android:layout_alignLeft="@id/linear_phone"
+            android:layout_alignRight="@id/linear_phone"
+            android:background="@drawable/shape_line" />
+
+        <LinearLayout
+            android:id="@+id/linear_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linear_phone"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/register_group_username_marginTop"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="@dimen/register_tv_phone_width"
+                android:layout_height="@dimen/login_tv_username_height"
+                android:layout_marginEnd="@dimen/register_tv_code_marginEnd"
+                android:gravity="center"
+                android:text="@string/register_tv_code_text"
+                android:textColor="@color/black"
+                android:textSize="@dimen/login_tv_username_textSize" />
+
+            <EditText
+                android:id="@+id/verifyIdentity_et_code"
+                android:layout_width="@dimen/register_et_username_width"
+                android:layout_height="@dimen/login_et_username_height"
+                android:background="@null"
+                android:gravity="center|start"
+                android:hint="@string/register_et_code_hint"
+                android:inputType="number"
+                android:maxLength="6"
+                android:maxLines="1"
+                android:textColor="@color/black"
+                android:textColorHint="@color/login_et_username_textColorHint"
+                android:textSize="@dimen/login_tv_username_textSize" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/verifyIdentity_btn_getCode"
+            android:layout_width="@dimen/btn_getCode_width"
+            android:layout_height="@dimen/btn_getCode_height"
+            android:layout_alignRight="@id/linear_code"
+            android:layout_alignBottom="@id/linear_code"
+            android:layout_marginBottom="@dimen/register_btn_getCode_marginBottom"
+            android:background="@drawable/btn_getcode"
+            android:text="@string/register_btn_getCode_text" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/login_group_username_underline_height"
+            android:layout_below="@id/linear_code"
+            android:layout_alignLeft="@id/linear_code"
+            android:layout_toLeftOf="@+id/verifyIdentity_btn_getCode"
+            android:background="@drawable/shape_line" />
+
+        <TextView
+            android:id="@+id/verifyIdentity_tv_noReceiveCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linear_code"
+            android:layout_alignLeft="@id/linear_code"
+            android:layout_marginTop="@dimen/register_tv_noCode_marginTop"
+            android:text="@string/register_tv_noCode_text"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/verifyIdentity_btn_verify"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/linear_code"
+            android:layout_alignRight="@id/linear_code"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/verifyIdentity_btn_verify_marginBottom"
+            android:background="@drawable/btn_login"
+            android:text="@string/verifyIdentity_btn_verify_text" />
+    </RelativeLayout>
+
+</RelativeLayout>

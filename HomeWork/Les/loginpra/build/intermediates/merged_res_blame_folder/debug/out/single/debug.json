@@ -1,0 +1,150 @@
+[
+    {
+        "merged": "C:\\Users\\32746\\.gradle\\daemon\\8.2\\com.example.loginpra-merged_res-28:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\32746\\.gradle\\daemon\\8.2\\com.example.loginpra-main-30:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\32746\\.gradle\\daemon\\8.2\\com.example.loginpra-merged_res-28:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\32746\\.gradle\\daemon\\8.2\\com.example.loginpra-main-30:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\32746\\.gradle\\daemon\\8.2\\com.example.loginpra-merged_res-28:\\layout_activity_resetpassword.xml.flat",
+        "source": "C:\\Users\\32746\\.gradle\\daemon\\8.2\\com.example.loginpra-main-30:\\layout\\activity_resetpassword.xml"
+    },
+    {
+        "merged": "C:\\Users\\32746\\.gradle\\daemon\\8.2\\com.example.loginpra-merged_res-28:\\drawable_icon_back_.png.flat",
+        "source": "C:\\Users\\32746\\.gradle\\daemon\\8.2\\com.example.loginpra-main-30:\\drawable\\icon_back_.png"
+    },
+    {
+        "merged": "com.example.loginpra-merged_res-28:/layout_activity_resetpassword.xml.flat",
+        "source": "com.example.loginpra-main-30:/layout/activity_resetpassword.xml"
+    },
+    {
+        "merged": "C:\\Users\\32746\\.gradle\\daemon\\8.2\\com.example.loginpra-merged_res-28:\\drawable_icon_qq_48.png.flat",
+        "source": "C:\\Users\\32746\\.gradle\\daemon\\8.2\\com.example.loginpra-main-30:\\drawable\\icon_qq_48.png"
+    },
+    {
+        "merged": "C:\\Users\\32746\\.gradle\\daemon\\8.2\\com.example.loginpra-merged_res-28:\\drawable_shape_line.xml.flat",
+        "source": "C:\\Users\\32746\\.gradle\\daemon\\8.2\\com.example.loginpra-main-30:\\drawable\\shape_line.xml"
+    },
+    {
+        "merged": "C:\\Users\\32746\\.gradle\\daemon\\8.2\\com.example.loginpra-merged_res-28:\\drawable_icon_phone_48.png.flat",
+        "source": "C:\\Users\\32746\\.gradle\\daemon\\8.2\\com.example.loginpra-main-30:\\drawable\\icon_phone_48.png"
+    },
+    {
+        "merged": "C:\\Users\\32746\\.gradle\\daemon\\8.2\\com.example.loginpra-merged_res-28:\\drawable_btn_back.xml.flat",
+        "source": "C:\\Users\\32746\\.gradle\\daemon\\8.2\\com.example.loginpra-main-30:\\drawable\\btn_back.xml"
+    },
+    {
+        "merged": "C:\\Users\\32746\\.gradle\\daemon\\8.2\\com.example.loginpra-merged_res-28:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\32746\\.gradle\\daemon\\8.2\\com.example.loginpra-main-30:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\32746\\.gradle\\daemon\\8.2\\com.example.loginpra-merged_res-28:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\32746\\.gradle\\daemon\\8.2\\com.example.loginpra-main-30:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\32746\\.gradle\\daemon\\8.2\\com.example.loginpra-merged_res-28:\\drawable_icon_wechat_32.png.flat",
+        "source": "C:\\Users\\32746\\.gradle\\daemon\\8.2\\com.example.loginpra-main-30:\\drawable\\icon_wechat_32.png"
+    },
+    {
+        "merged": "C:\\Users\\32746\\.gradle\\daemon\\8.2\\com.example.loginpra-merged_res-28:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\32746\\.gradle\\daemon\\8.2\\com.example.loginpra-main-30:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\32746\\.gradle\\daemon\\8.2\\com.example.loginpra-merged_res-28:\\layout_activity_verifyidentity.xml.flat",
+        "source": "C:\\Users\\32746\\.gradle\\daemon\\8.2\\com.example.loginpra-main-30:\\layout\\activity_verifyidentity.xml"
+    },
+    {
+        "merged": "C:\\Users\\32746\\.gradle\\daemon\\8.2\\com.example.loginpra-merged_res-28:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\32746\\.gradle\\daemon\\8.2\\com.example.loginpra-main-30:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\32746\\.gradle\\daemon\\8.2\\com.example.loginpra-merged_res-28:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\32746\\.gradle\\daemon\\8.2\\com.example.loginpra-main-30:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.loginpra-merged_res-28:/layout_activity_verifyidentity.xml.flat",
+        "source": "com.example.loginpra-main-30:/layout/activity_verifyidentity.xml"
+    },
+    {
+        "merged": "C:\\Users\\32746\\.gradle\\daemon\\8.2\\com.example.loginpra-merged_res-28:\\drawable_bk.png.flat",
+        "source": "C:\\Users\\32746\\.gradle\\daemon\\8.2\\com.example.loginpra-main-30:\\drawable\\bk.png"
+    },
+    {
+        "merged": "C:\\Users\\32746\\.gradle\\daemon\\8.2\\com.example.loginpra-merged_res-28:\\drawable_btn_login.xml.flat",
+        "source": "C:\\Users\\32746\\.gradle\\daemon\\8.2\\com.example.loginpra-main-30:\\drawable\\btn_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\32746\\.gradle\\daemon\\8.2\\com.example.loginpra-merged_res-28:\\mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "C:\\Users\\32746\\.gradle\\daemon\\8.2\\com.example.loginpra-main-30:\\mipmap-anydpi\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\32746\\.gradle\\daemon\\8.2\\com.example.loginpra-merged_res-28:\\drawable_icon_phone_32.png.flat",
+        "source": "C:\\Users\\32746\\.gradle\\daemon\\8.2\\com.example.loginpra-main-30:\\drawable\\icon_phone_32.png"
+    },
+    {
+        "merged": "C:\\Users\\32746\\.gradle\\daemon\\8.2\\com.example.loginpra-merged_res-28:\\layout_activity_register.xml.flat",
+        "source": "C:\\Users\\32746\\.gradle\\daemon\\8.2\\com.example.loginpra-main-30:\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\32746\\.gradle\\daemon\\8.2\\com.example.loginpra-merged_res-28:\\drawable_rounded_rectangle.xml.flat",
+        "source": "C:\\Users\\32746\\.gradle\\daemon\\8.2\\com.example.loginpra-main-30:\\drawable\\rounded_rectangle.xml"
+    },
+    {
+        "merged": "C:\\Users\\32746\\.gradle\\daemon\\8.2\\com.example.loginpra-merged_res-28:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\32746\\.gradle\\daemon\\8.2\\com.example.loginpra-main-30:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\32746\\.gradle\\daemon\\8.2\\com.example.loginpra-merged_res-28:\\drawable_icon_wechat_48.png.flat",
+        "source": "C:\\Users\\32746\\.gradle\\daemon\\8.2\\com.example.loginpra-main-30:\\drawable\\icon_wechat_48.png"
+    },
+    {
+        "merged": "C:\\Users\\32746\\.gradle\\daemon\\8.2\\com.example.loginpra-merged_res-28:\\drawable_image_background.jpg.flat",
+        "source": "C:\\Users\\32746\\.gradle\\daemon\\8.2\\com.example.loginpra-main-30:\\drawable\\image_background.jpg"
+    },
+    {
+        "merged": "C:\\Users\\32746\\.gradle\\daemon\\8.2\\com.example.loginpra-merged_res-28:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\32746\\.gradle\\daemon\\8.2\\com.example.loginpra-main-30:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\32746\\.gradle\\daemon\\8.2\\com.example.loginpra-merged_res-28:\\drawable_btn_getcode.xml.flat",
+        "source": "C:\\Users\\32746\\.gradle\\daemon\\8.2\\com.example.loginpra-main-30:\\drawable\\btn_getcode.xml"
+    },
+    {
+        "merged": "C:\\Users\\32746\\.gradle\\daemon\\8.2\\com.example.loginpra-merged_res-28:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\32746\\.gradle\\daemon\\8.2\\com.example.loginpra-main-30:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\32746\\.gradle\\daemon\\8.2\\com.example.loginpra-merged_res-28:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\32746\\.gradle\\daemon\\8.2\\com.example.loginpra-main-30:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\32746\\.gradle\\daemon\\8.2\\com.example.loginpra-merged_res-28:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\32746\\.gradle\\daemon\\8.2\\com.example.loginpra-main-30:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\32746\\.gradle\\daemon\\8.2\\com.example.loginpra-merged_res-28:\\drawable_icon_qq_32.png.flat",
+        "source": "C:\\Users\\32746\\.gradle\\daemon\\8.2\\com.example.loginpra-main-30:\\drawable\\icon_qq_32.png"
+    },
+    {
+        "merged": "C:\\Users\\32746\\.gradle\\daemon\\8.2\\com.example.loginpra-merged_res-28:\\mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\32746\\.gradle\\daemon\\8.2\\com.example.loginpra-main-30:\\mipmap-anydpi\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\32746\\.gradle\\daemon\\8.2\\com.example.loginpra-merged_res-28:\\drawable_shape_login_loginbyothermeans.xml.flat",
+        "source": "C:\\Users\\32746\\.gradle\\daemon\\8.2\\com.example.loginpra-main-30:\\drawable\\shape_login_loginbyothermeans.xml"
+    },
+    {
+        "merged": "com.example.loginpra-merged_res-28:/layout_activity_register.xml.flat",
+        "source": "com.example.loginpra-main-30:/layout/activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\32746\\.gradle\\daemon\\8.2\\com.example.loginpra-merged_res-28:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\32746\\.gradle\\daemon\\8.2\\com.example.loginpra-main-30:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\32746\\.gradle\\daemon\\8.2\\com.example.loginpra-merged_res-28:\\drawable_background_register.png.flat",
+        "source": "C:\\Users\\32746\\.gradle\\daemon\\8.2\\com.example.loginpra-main-30:\\drawable\\background_register.png"
+    }
+]

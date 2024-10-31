@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DataTransmission</string>
+    <string name="tv_name">姓名</string>
+    <string name="et_name_hint">输入姓名</string>
+    <string name="tv_age">年龄</string>
+    <string name="et_age_hint">输入你的年龄</string>
+    <string name="tv_says">留言</string>
+    <string name="et_says_hint">输入你想说的话</string>
+    <string name="btn_go_text">GO</string>
+</resources>

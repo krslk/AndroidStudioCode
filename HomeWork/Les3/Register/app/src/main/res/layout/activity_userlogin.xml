@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="320dp"
+    android:layout_height="460dp"
+    android:layout_gravity="center"
+    android:background="@drawable/shape_background_card"
+    android:columnCount="2"
+    android:rowCount="7">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_columnSpan="2"
+        android:gravity="center"
+        android:text="@string/string_userlogin"
+        android:textColor="@color/black"
+        android:textSize="@dimen/tv_userlogin_card_title" />
+
+    <RadioGroup
+        android:id="@+id/rg_login_means"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_columnSpan="2"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_login_by_username"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="@dimen/login_by_username_marginEnd"
+            android:text="@string/string_loginByUsername"
+            android:textSize="@dimen/login_by_username_textSize" />
+
+        <RadioButton
+            android:id="@+id/rb_login_by_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/string_login_by_phone"
+            android:textSize="@dimen/login_by_username_textSize" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tv_login_username"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="@string/tv_username_text"
+        android:textSize="@dimen/userlogin_from_username_textSize" />
+
+    <EditText
+        android:id="@+id/et_login_username"
+        android:layout_width="220dp"
+        android:layout_height="60dp"
+        android:digits="@string/et_username_digits"
+        android:hint="@string/et_username_hint"
+        android:inputType="text"
+        android:maxLength="10"
+        android:maxLines="1"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_login_password"
+        android:layout_width="@dimen/userlogin_from_username_width"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="@string/tv_password_text"
+        android:textSize="@dimen/userlogin_from_username_textSize" />
+
+    <EditText
+        android:id="@+id/et_login_password"
+        android:layout_width="220dp"
+        android:layout_height="60dp"
+        android:autofillHints="@null"
+        android:digits="@string/et_password_digits"
+        android:hint="@string/et_password_hint"
+        android:inputType="textPassword"
+        android:maxLength="10"
+        android:maxLines="1"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/cb_save_username_password"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_columnSpan="2"
+        android:layout_marginStart="20dp"
+        android:text="记住密码" />
+
+    <TextView
+        android:id="@+id/tv_login_phone"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="@string/tv_phone_text"
+        android:textSize="@dimen/userlogin_from_username_textSize"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/et_login_phone"
+        android:layout_width="220dp"
+        android:layout_height="60dp"
+        android:digits="@string/et_username_digits"
+        android:hint="@string/et_phone_hint"
+        android:inputType="number"
+        android:maxLength="11"
+        android:maxLines="1"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:textSize="20sp"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/tv_login_group_getCode"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_columnSpan="2"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <EditText
+            android:id="@+id/et_login_code"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:hint="@string/et_code_hint"
+            android:inputType="number"
+            android:maxLength="6"
+            android:maxLines="1"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/btn_login_code"
+            android:layout_width="110dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="@string/btn_code_text"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="280dp"
+        android:layout_height="55dp"
+        android:layout_columnSpan="2"
+        android:layout_gravity="center"
+        android:text="登录" />
+
+</GridLayout>

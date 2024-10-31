@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="false" android:state_enabled="true">
+        <shape android:shape="rectangle">
+            <size android:width="@dimen/basicInformation_btn_nextStep_width" android:height="@dimen/basicInformation_btn_nextStep_height" />
+            <solid android:color="@color/background_blue" />
+            <corners android:radius="5dp"/>
+        </shape>
+    </item>
+
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <size android:width="@dimen/basicInformation_btn_nextStep_width" android:height="@dimen/basicInformation_btn_nextStep_height" />
+            <solid android:color="@color/progressBar_noFinish_background" />
+            <corners android:radius="5dp"/>
+        </shape>
+    </item>
+    <item android:state_enabled="false">
+        <shape android:shape="rectangle">
+            <size android:width="@dimen/basicInformation_btn_nextStep_width" android:height="@dimen/basicInformation_btn_nextStep_height" />
+            <solid android:color="@color/et_hintTextColor" />
+            <corners android:radius="5dp"/>
+        </shape>
+    </item>
+</selector>
