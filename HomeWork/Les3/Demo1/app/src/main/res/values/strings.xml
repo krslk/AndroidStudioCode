@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">计算器</string>
+    <string name="btn_save"></string>
+    <string name="btn_clear"></string>
+    <string name="btn_AC">AC</string>
+    <string name="btn_sign">+/-</string>
+    <string name="btn_mod">%</string>
+    <string name="btn_back">CE</string>
+    <string name="btn_seven">7</string>
+    <string name="btn_eight">8</string>
+    <string name="btn_nine">9</string>
+    <string name="btn_four">4</string>
+    <string name="btn_div">÷</string>
+    <string name="btn_five">5</string>
+    <string name="btn_six">6</string>
+    <string name="btn_mul">×</string>
+    <string name="btn_one">1</string>
+    <string name="btn_two">2</string>
+    <string name="btn_three">3</string>
+    <string name="btn_sub">-</string>
+    <string name="btn_point">.</string>
+    <string name="btn_zero">0</string>
+    <string name="btn_equal">=</string>
+    <string name="btn_add">+</string>
+    <string name="tv_inputView_defaultValue">0</string>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="background_card_width">320dp</dimen>
+    <dimen name="background_card_height">400dp</dimen>
+    <dimen name="tv_name_textSize">20sp</dimen>
+    <dimen name="tv_name_width">70dp</dimen>
+    <dimen name="tv_name_height">50dp</dimen>
+    <dimen name="et_name_width">200dp</dimen>
+    <dimen name="et_name_height">50dp</dimen>
+    <dimen name="et_name_textSize">20dp</dimen>
+    <dimen name="et_says_height">100dp</dimen>
+    <dimen name="btn_go_width">270dp</dimen>
+    <dimen name="btn_go_height">50dp</dimen>
+    <dimen name="btn_go_marginTop">25dp</dimen>
+    <dimen name="btn_go_textSize">23sp</dimen>
+    <dimen name="background_card_padding">10dp</dimen>
+    <dimen name="tv_welcome_width">280dp</dimen>
+    <dimen name="tv_welcome_height">350dp</dimen>
+    <dimen name="et_name_maxWidth">180dp</dimen>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="btn_usual">
+        <item name="android:layout_height">@dimen/btn_layout_height</item>
+        <item name="android:layout_width">@dimen/btn_layout_width</item>
+        <item name="android:layout_marginTop">@dimen/btn_marginTop</item>
+        <item name="android:layout_marginRight">@dimen/btn_marginRight</item>
+        <item name="android:layout_marginBottom">@dimen/btn_marginBottom</item>
+        <item name="android:layout_marginLeft">@dimen/btn_marginLeft</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="btn_saveAndClear">
+        <item name="android:layout_width">@dimen/btn_saveAndClear_layout_width</item>
+        <item name="android:layout_height">@dimen/btn_saveAndClear_layout_height</item>
+        <item name="android:layout_marginTop">@dimen/btn_saveAndClear_marginTop</item>
+        <item name="android:layout_marginRight">@dimen/btn_saveAndClear_marginRight</item>
+        <item name="android:layout_marginBottom">@dimen/btn_saveAndClear_marginBottom</item>
+        <item name="android:layout_marginLeft">@dimen/btn_saveAndClear_marginLeft</item>
+    </style>
+
+    <style name="btn_back">
+        <item name="android:layout_height">@dimen/btn_layout_height</item>
+        <item name="android:layout_width">@dimen/btn_layout_width</item>
+        <item name="android:layout_marginTop">@dimen/btn_marginTop</item>
+        <item name="android:layout_marginRight">@dimen/btn_marginRight</item>
+        <item name="android:layout_marginBottom">@dimen/btn_marginBottom</item>
+        <item name="android:layout_marginLeft">@dimen/btn_marginLeft</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="btn_history">
+        <item name="android:layout_width">@dimen/btn_history_layout_width</item>
+        <item name="android:layout_height">@dimen/btn_history_layout_height</item>
+        <item name="android:layout_marginTop">@dimen/btn_history_layout_marginTop</item>
+        <item name="android:layout_marginLeft">@dimen/btn_history_layout_marginLeft</item>
+        <item name="android:layout_marginBottom">@dimen/btn_history_layout_bottom</item>
+    </style>
+
+</resources>

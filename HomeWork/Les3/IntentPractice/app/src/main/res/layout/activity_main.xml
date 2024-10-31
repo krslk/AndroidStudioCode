@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="@dimen/card_background_width"
+        android:layout_height="@dimen/card_background_height"
+        android:layout_centerInParent="true"
+        android:background="@drawable/shape_rectangle"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_openBrowser"
+            android:layout_width="@dimen/btn_width"
+            android:layout_height="@dimen/btn_height"
+            android:text="@string/btn_openBrowser" />
+
+        <Button
+            android:id="@+id/btn_callPho"
+            android:layout_width="@dimen/btn_width"
+            android:layout_height="@dimen/btn_height"
+            android:text="@string/btn_callPhone" />
+
+        <Button
+            android:id="@+id/btn_sendSMS"
+            android:layout_width="@dimen/btn_width"
+            android:layout_height="@dimen/btn_height"
+            android:text="@string/btn_sendSMS" />
+
+    </LinearLayout>
+
+</RelativeLayout>
