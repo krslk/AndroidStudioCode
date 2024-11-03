@@ -142,14 +142,6 @@ public class activity_userLogin extends AppCompatActivity implements View.OnClic
         myHelper.closeLink();
     }
 
-    @Override
-    public void onClick(View v) { //有问题的方法
-        if (v.getId() == R.id.btn_login) {
-            Log.w("---", "22222");
-        }
-        Log.w("---", "11111");
-    }
-
     public User getUseFromActivity() { //获取登录信息并封装称User对象
         User user = new User();
         if (loginMeans.getCheckedRadioButtonId() == R.id.rb_login_by_username) {//使用用户名密码登录
@@ -168,5 +160,10 @@ public class activity_userLogin extends AppCompatActivity implements View.OnClic
 
         }
         return user;
+    }
+
+    @Override
+    public void onClick(View v) {
+
     }
 }

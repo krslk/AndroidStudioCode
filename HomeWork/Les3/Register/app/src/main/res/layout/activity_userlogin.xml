@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="320dp"
     android:layout_height="460dp"
     android:layout_gravity="center"
@@ -54,6 +55,7 @@
         android:id="@+id/et_login_username"
         android:layout_width="220dp"
         android:layout_height="60dp"
+        android:autofillHints=""
         android:digits="@string/et_username_digits"
         android:hint="@string/et_username_hint"
         android:inputType="text"
@@ -114,7 +116,9 @@
         android:paddingStart="10dp"
         android:paddingEnd="10dp"
         android:textSize="20sp"
-        android:visibility="gone" />
+        android:visibility="gone"
+        tools:ignore="TextFields"
+        android:autofillHints="" />
 
     <LinearLayout
         android:id="@+id/tv_login_group_getCode"
@@ -128,6 +132,7 @@
             android:id="@+id/et_login_code"
             android:layout_width="120dp"
             android:layout_height="60dp"
+            android:autofillHints=""
             android:gravity="center"
             android:hint="@string/et_code_hint"
             android:inputType="number"
@@ -152,6 +157,6 @@
         android:layout_height="55dp"
         android:layout_columnSpan="2"
         android:layout_gravity="center"
-        android:text="登录" />
+        android:text="@string/btn_login" />
 
 </GridLayout>

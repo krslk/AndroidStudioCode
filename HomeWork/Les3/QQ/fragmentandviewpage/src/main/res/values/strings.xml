@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">FragmentAndViewPage</string>
+    <string name="string_hello_world">Hello World</string>
+</resources>
