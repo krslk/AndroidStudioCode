@@ -13,4 +13,5 @@
     <string name="et_phone_hint">请输入手机号</string>
     <string name="et_code_hint">请输入验证码</string>
     <string name="btn_code_text">获取验证码</string>
+    <string name="btn_login">登录</string>
 </resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_change"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/string_change" />
+
+    <Button
+        android:id="@+id/btn_replace"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/string_replace" />
+
+    <FrameLayout
+        android:id="@+id/fragment1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#4FC3F7"
+        tools:ignore="FragmentTagUsage">
+
+
+    </FrameLayout>
+
+</LinearLayout>

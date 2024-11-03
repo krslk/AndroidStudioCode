@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="password_chat_range">1234567890qwertyuiopasdfghjklzxcvbnmZXCVBNMASDFGHJKLPOIUYTREWQ!#_+@-</string>
+    <string name="string_et_password_hint">输入QQ密码</string>
+    <string name="username_chat_range">1234567890QWERTYUIOPLKJHGFDSAZXCVBNMmnbvcxzasdfghjklpoiuytrewq_</string>
+    <string name="string_save_password">记住密码</string>
+</resources>

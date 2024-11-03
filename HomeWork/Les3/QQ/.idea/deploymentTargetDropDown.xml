@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="deploymentTargetDropDown">
+    <value>
+      <entry key="MainActivity">
+        <State />
+      </entry>
+      <entry key="app">
+        <State />
+      </entry>
+      <entry key="fragment">
+        <State />
+      </entry>
+      <entry key="fragment2">
+        <State />
+      </entry>
+      <entry key="fragmentandviewpage">
+        <State />
+      </entry>
+      <entry key="fragmentandviewpage2">
+        <State />
+      </entry>
+    </value>
+  </component>
+</project>

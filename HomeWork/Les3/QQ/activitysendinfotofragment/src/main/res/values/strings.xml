@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ActivitySendInfoToFragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="string_change">change</string>
+    <string name="string_replace">replace</string>
+    <string name="string_data_send">数据传递</string>
+</resources>
