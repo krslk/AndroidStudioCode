@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FF7043"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <EditText
+            android:id="@+id/et_username"
+            android:layout_width="273dp"
+            android:layout_height="54dp"
+            android:layout_marginTop="15dp"
+            android:autofillHints=""
+            android:gravity="center"
+            android:hint="@string/string_et_hint"
+            android:inputType="text"
+            android:maxLength="12" />
+
+        <RelativeLayout
+            android:layout_width="273dp"
+            android:layout_height="54dp"
+            android:layout_marginTop="18dp">
+
+            <EditText
+                android:id="@+id/et_password"
+                android:layout_width="273dp"
+                android:layout_height="54dp"
+                android:autofillHints=""
+                android:gravity="center"
+                android:hint="@string/string_et_password_hint"
+                android:inputType="textPassword"
+                android:maxLength="18" />
+
+            <ImageButton
+                android:id="@+id/btn_show_password"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="10dp"
+                android:contentDescription="@null" />
+        </RelativeLayout>
+
+        <RadioGroup
+            android:layout_width="273dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <CheckBox
+                android:id="@+id/cb_save_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="@string/string_save_password" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="273dp"
+            android:layout_height="41dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/string_login"
+            android:textColor="#bbe7fd" />
+
+    </LinearLayout>
+</LinearLayout>
