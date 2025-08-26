@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".fragment.MineViewPagerFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/background_fragment_top_card">
+
+        <ImageButton
+            android:id="@+id/fragment_mine_avatar"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#00FFFFFF"
+            android:scaleType="fitCenter"
+            tools:src="@mipmap/img_default_avatar" />
+
+        <TextView
+            android:id="@+id/fragment_mine_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/fragment_mine_avatar"
+            android:layout_marginStart="15dp"
+            android:layout_toRightOf="@+id/fragment_mine_avatar"
+            android:fontFamily="@font/noto_sans_sc_bold_9"
+            android:text="游客登录"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/fragment_mine_account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/fragment_mine_username"
+            android:layout_alignBottom="@+id/fragment_mine_avatar"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/vare_ia_round_regular"
+            android:text="User1234567890"
+            android:textColor="@color/black"
+            android:textSize="22sp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/fragment_mine_ll_own"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:gravity="center|left"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:src="@mipmap/icon_own_info" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/noto_sans_sc_bold_6"
+            android:gravity="center|left"
+            android:text="个人中心"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginEnd="10dp"
+            android:src="@mipmap/icon_enter_right" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fragment_mine_ll_about"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:gravity="center|left"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:src="@mipmap/icon_about" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/noto_sans_sc_bold_6"
+            android:gravity="center|left"
+            android:text="关于我们"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginEnd="10dp"
+            android:src="@mipmap/icon_enter_right" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fragment_mine_ll_setting"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:gravity="center|left"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:src="@mipmap/icon_setting" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/noto_sans_sc_bold_6"
+            android:gravity="center|left"
+            android:text="设置"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginEnd="10dp"
+            android:src="@mipmap/icon_enter_right" />
+    </LinearLayout>
+</LinearLayout>

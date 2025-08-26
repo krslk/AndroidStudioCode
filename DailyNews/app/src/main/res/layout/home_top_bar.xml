@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="53dp"
+    android:columnCount="6"
+    android:paddingStart="5dp"
+    android:paddingEnd="5dp"
+    android:rowCount="1">
+
+    <LinearLayout
+        android:id="@+id/ll_home_topBar_concerns"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_columnWeight="1"
+        android:gravity="center|bottom"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_home_topBar_concerns"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:text="关注"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <View
+            android:id="@+id/line_home_topBar_concerns"
+            android:layout_width="30dp"
+            android:layout_height="3dp"
+            android:background="@drawable/shape_top_bar_line" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_home_topBar_recommendations"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_columnWeight="1"
+        android:gravity="center|bottom"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_home_topBar_recommendations"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:text="推荐"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <View
+            android:id="@+id/line_home_topBar_recommendations"
+            android:layout_width="30dp"
+            android:layout_height="3dp"
+            android:background="@drawable/shape_top_bar_line" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_home_topBar_news"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_columnWeight="1"
+        android:gravity="center|bottom"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_home_topBar_news"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:text="新闻"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <View
+            android:id="@+id/line_home_topBar_news"
+            android:layout_width="30dp"
+            android:layout_height="3dp"
+            android:background="@drawable/shape_top_bar_line" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_home_topBar_games"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_columnWeight="1"
+        android:gravity="center|bottom"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_home_topBar_games"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:text="游戏"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <View
+            android:id="@+id/line_home_topBar_games"
+            android:layout_width="30dp"
+            android:layout_height="3dp"
+            android:background="@drawable/shape_top_bar_line" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_home_topBar_entertainments"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_columnWeight="1"
+        android:gravity="center|bottom"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_home_topBar_entertainments"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:text="娱乐"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <View
+            android:id="@+id/line_home_topBar_entertainments"
+            android:layout_width="30dp"
+            android:layout_height="3dp"
+            android:background="@drawable/shape_top_bar_line" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_home_topBar_others"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_columnWeight="1"
+        android:gravity="center|bottom"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_home_topBar_others"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:text="综艺"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <View
+            android:id="@+id/line_home_topBar_others"
+            android:layout_width="30dp"
+            android:layout_height="3dp"
+            android:background="@drawable/shape_top_bar_line" />
+    </LinearLayout>
+
+
+</GridLayout>

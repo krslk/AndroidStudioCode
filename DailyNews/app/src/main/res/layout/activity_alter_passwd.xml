@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center|top"
+    android:orientation="vertical"
+    tools:context=".activity.AlterPasswdActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:onClick="back"
+            android:src="@drawable/icon_back_left" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text="修改密码"
+            android:textColor="@color/black"
+            android:textSize="25dp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/line_bk_fragment_mine_item" />
+
+    <EditText
+        android:id="@+id/et_setting_oldPassword"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/et_shape"
+        android:digits="@string/string_password_allow_chars"
+        android:gravity="center"
+        android:hint="输入旧密码"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="#888484" />
+
+    <EditText
+        android:id="@+id/et_setting_newPassword"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/et_shape"
+        android:digits="@string/string_password_allow_chars"
+        android:gravity="center"
+        android:hint="输入新密码"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="#888484" />
+
+    <EditText
+        android:id="@+id/et_setting_reNewPassword"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/et_shape"
+        android:digits="@string/string_password_allow_chars"
+        android:gravity="center"
+        android:hint="再次输入新密码"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="#888484" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn_shape_login"
+        android:onClick="alterPasswd"
+        android:text="修改密码"
+        android:textSize="20sp" />
+</LinearLayout>
