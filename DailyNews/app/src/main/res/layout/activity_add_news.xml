@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center|top"
+    android:orientation="vertical"
+    tools:context=".activity.AddNewsActivity">
+
+    <EditText
+        android:id="@+id/et_addNews_title"
+        style="@style/et_activity_addNews"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:background="@drawable/et_shape_add_news"
+        android:hint="输入标题"
+        android:maxLength="15"
+        android:maxLines="1" />
+
+    <EditText
+        android:id="@+id/et_addNews_type"
+        style="@style/et_activity_addNews"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:background="@drawable/et_shape_add_news"
+        android:hint="输入类型"
+        android:maxLength="25"
+        android:maxLines="1" />
+
+    <EditText
+        android:id="@+id/et_addNews_content"
+        style="@style/et_activity_addNews"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:background="@drawable/et_shape_add_news"
+        android:gravity="top|left"
+        android:hint="输入内容"
+        android:inputType="textMultiLine"
+        android:padding="6dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:paddingStart="40dp"
+        android:paddingEnd="40dp">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_register_get_mail_code"
+            android:onClick="addPhoto"
+            android:text="添加图片" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_register_get_mail_code"
+            android:onClick="addVideo"
+            android:text="添加视频" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn_shape_login"
+        android:onClick="toAddNews"
+        android:text="发表"
+        android:textSize="20sp" />
+
+</LinearLayout>

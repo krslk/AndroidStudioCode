@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@mipmap/icon_progress_bar_48">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <solid android:color="#E4E4E4" /> <!-- 设置滑块颜色 -->
+            <size android:width="10dp" android:height="10dp" /> <!-- 设置滑块大小为 16dp x 16dp -->
+            <corners android:radius="3dp" /> <!-- 让滑块成为圆形 -->
+        </shape>
+    </item>
+</selector>

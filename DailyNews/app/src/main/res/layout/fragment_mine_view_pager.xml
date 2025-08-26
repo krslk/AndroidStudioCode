@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment.MineViewPagerFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/gray">
+
+        <ImageView
+            android:id="@+id/img_mine_avatar"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="15dp"
+            android:src="@color/white" />
+
+        <TextView
+            android:id="@+id/img_mine_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/img_mine_avatar"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="3dp"
+            android:layout_toRightOf="@+id/img_mine_avatar"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            tools:text="喝水长胖" />
+
+        <TextView
+            android:id="@+id/img_mine_account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/img_mine_username"
+            android:layout_alignBottom="@+id/img_mine_avatar"
+            android:layout_marginBottom="3dp"
+            android:textColor="#5A5A5A"
+            android:textSize="18sp"
+            tools:text="2230090210" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/fragment_mine_ll_setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ll_fragment_mine_item">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:gravity="left|center"
+            android:paddingStart="15dp"
+            android:text="设置"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:layout_marginEnd="20dp"
+            android:src="@drawable/icon_back_right" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/line_bk_fragment_mine_item" />
+
+    <LinearLayout
+        android:id="@+id/fragment_mine_ll_help"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ll_fragment_mine_item">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:gravity="left|center"
+            android:paddingStart="15dp"
+            android:text="帮助中心"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:layout_marginEnd="20dp"
+            android:src="@drawable/icon_back_right" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/line_bk_fragment_mine_item" />
+
+    <LinearLayout
+        android:id="@+id/fragment_mine_ll_about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ll_fragment_mine_item">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:gravity="left|center"
+            android:paddingStart="15dp"
+            android:text="关于我们"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:layout_marginEnd="20dp"
+            android:src="@drawable/icon_back_right" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/line_bk_fragment_mine_item" />
+</LinearLayout>

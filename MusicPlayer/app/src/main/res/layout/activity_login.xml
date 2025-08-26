@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.LoginActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/img_login_background" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/shape_login_ll"
+        android:gravity="center|top"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/agu_display_regular"
+            android:text="TJNU"
+            android:textColor="#4749BA"
+            android:textSize="38sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="260dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="43dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/noto_sans_sc_bold_3"
+                android:text="账号"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/et_login_account"
+                android:layout_width="216dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="5dp"
+                android:background="@null"
+                android:digits="@string/string_char_account_scope"
+                android:gravity="center"
+                android:hint="请输入账号"
+                android:maxLength="15"
+                android:textColor="@color/black"
+                android:textColorHint="@color/color_et_hint" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="260dp"
+            android:layout_height="3dp"
+            android:background="@drawable/background_login_line" />
+
+        <LinearLayout
+            android:layout_width="260dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/noto_sans_sc_bold_3"
+                android:inputType="text"
+                android:text="密码"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/et_login_passwd"
+                android:layout_width="216dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="5dp"
+                android:background="@null"
+                android:digits="@string/string_char_passwd_scope"
+                android:gravity="center"
+                android:hint="请输入密码"
+                android:inputType="textPassword"
+                android:maxLength="20"
+                android:textColor="@color/black"
+                android:textColorHint="@color/color_et_hint" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="260dp"
+            android:layout_height="3dp"
+            android:background="@drawable/background_login_line" />
+
+        <LinearLayout
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/cb_login_rememberPasswd"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/agu_display_regular"
+                android:text="记住密码" />
+
+            <TextView
+                android:id="@+id/tv_login_registerAccount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginStart="100dp"
+                android:fontFamily="@font/agu_display_regular"
+                android:text="注册账号"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_login_login"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/activity_login_btn"
+            android:fontFamily="@font/noto_sans_sc_bold_9"
+            android:onClick="login"
+            android:text="登录" />
+
+    </LinearLayout>
+</RelativeLayout>

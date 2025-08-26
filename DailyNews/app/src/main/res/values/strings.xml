@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">DailyNews</string>
+    <string name="string_login">登录</string>
+    <string name="string_register">注册</string>
+    <string name="string_enter_account">请输入账号</string>
+    <string name="string_enter_password">请输入密码</string>
+    <string name="string_account_allow_chars">1234567890QWERTYUIOPLKJHGFDSAZXCVBNMqwertyuiopasdfghjklzxcvbnm_-</string>
+    <string name="string_password_allow_chars">1234567890QWERTYUIOPLKJHGFDSAZXCVBNMqwertyuiopasdfghjklzxcvbnm_+@*-.|</string>
+    <string name="string_index">首页</string>
+    <string name="string_collection">收藏</string>
+    <string name="string_mine">我的</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="string_enter_repassword">请再次输入密码</string>
+    <string name="string_enter_mail">请输入邮箱</string>
+    <string name="string_enter_mailCode">输入验证码</string>
+    <string name="string_online_time">客服在线时间：9:00 - 21:00</string>
+    <string name="string_online_time_sun">双休、节假日：10:30 - 19:30</string>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 背景线条 -->
+    <item>
+        <shape android:shape="line">
+            <size android:height="4dp" /> <!-- 设置高度为 2dp -->
+            <stroke
+                android:width="2dp"
+                android:color="#A09C9C" />
+            <corners android:radius="1dp" />
+        </shape>
+    </item>
+
+    <!-- 进度线条 -->
+    <item
+        android:left="0dp"
+        android:right="0dp">
+        <clip>
+            <shape android:shape="line">
+                <solid android:color="#FF7144" />  <!-- 进度条颜色 -->
+                <stroke
+                    android:width="4dp"
+                    android:color="#FF7144" />
+                <size android:height="2dp" /> <!-- 设置高度为 2dp -->
+                <corners android:radius="1dp" />
+            </shape>
+        </clip>
+    </item>
+</layer-list>
+

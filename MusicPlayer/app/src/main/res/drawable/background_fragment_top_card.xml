@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <bitmap
+            android:scaleType="centerCrop"
+            android:src="@mipmap/background_fragment_mine_top_card" />
+    </item>
+    <item>
+        <shape>
+            <solid android:color="#02FFFFFF" />
+        </shape>
+    </item>
+</layer-list>
